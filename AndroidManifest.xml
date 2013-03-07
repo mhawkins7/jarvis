@@ -38,6 +38,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.appvengers.jarvis.MainActivity" />
         </activity>
+        <activity
+            android:name="com.appvengers.jarvis.CreateTaskActivity"
+            android:label="@string/title_activity_create_task"
+            android:parentActivityName="com.appvengers.jarvis.DisplayTasksActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.appvengers.jarvis.DisplayTasksActivity" />
+        </activity>
     </application>
 
 </manifest>

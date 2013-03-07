@@ -7,15 +7,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.support.v4.app.NavUtils;
 import android.annotation.TargetApi;
-import android.content.Intent;
 import android.os.Build;
 
-public class DisplayTasksActivity extends Activity {
+public class CreateTaskActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_display_tasks);
+		setContentView(R.layout.activity_create_task);
 		// Show the Up button in the action bar.
 		setupActionBar();
 	}
@@ -33,7 +32,7 @@ public class DisplayTasksActivity extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.display_tasks, menu);
+		getMenuInflater().inflate(R.menu.create_task, menu);
 		return true;
 	}
 
@@ -54,9 +53,7 @@ public class DisplayTasksActivity extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 
-	public void addTask(View view){
-		
-		Intent intent = new Intent(this, CreateTaskActivity.class);
-		startActivity(intent);
+	public void createEvent(View view){
+		//do whatever we need to to create an event. probably call a static method somewhere
 	}
 }
