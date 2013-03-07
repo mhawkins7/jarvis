@@ -3,6 +3,15 @@
 
     <string name="app_name">jarvis</string>
     <string name="action_settings">Settings</string>
+    <string name="edit_message">Enter a Message</string>
+    <string name="button_schedule">Schedule</string>
+    <string name="button_tasks">Tasks</string>
+    <string name="title_activity_display_message">My Message</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_display_schedule">Schedule</string>
+    <string name="home_temp">Helpful Info About Current Task/Appointment</string>
+    <string name="schedule_temp">Fancy Way to Display Schedule</string>
+    <string name="tasks_temp">Task List</string>
+    <string name="title_activity_display_tasks">Tasks</string>
 
 </resources>
