@@ -23,14 +23,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.appvengers.jarvis.DisplayMessageActivity"
-            android:label="@string/title_activity_display_message"
-            android:parentActivityName="com.appvengers.jarvis.MainActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.appvengers.jarvis.MainActivity" />
-        </activity>
-        <activity
             android:name="com.appvengers.jarvis.DisplayScheduleActivity"
             android:label="@string/title_activity_display_schedule"
             android:parentActivityName="com.appvengers.jarvis.MainActivity" >
