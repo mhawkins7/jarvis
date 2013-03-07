@@ -12,16 +12,19 @@
     <string name="home_temp">Helpful Info About Current Task/Appointment</string>
     <string name="schedule_temp">Fancy Way to Display Schedule</string>
     <string name="tasks_temp">Task List</string>
-    <string name="tasks_form_name">Task Name</string>
-    <string name="tasks_form_start">Starts</string>
-    <string name="tasks_form_end">Ends</string>
-    <string name="tasks_form_location">Location</string>
-    <string name="tasks_form_priority">Priority</string>
-    <string name="tasks_form_priorityHint">5</string>
-    <string name="tasks_form_createButton">Submit</string>
+    <string name="form_start">Starts</string>
+    <string name="form_end">Ends</string>
+    <string name="form_location">Location</string>
+    <string name="form_priority">Priority</string>
+    <string name="form_priorityHint">5</string>
+    <string name="task_form_name">Task Name</string>
+    <string name="task_form_createButton">Create Task</string>
+    <string name="event_form_name">Event Name</string>
+    <string name="event_form_createButton">Create Event</string>
     <string name="title_activity_display_tasks">Tasks</string>
     <string name="create_task">Add Task</string>
+    <string name="create_event">Add Event</string>
     <string name="title_activity_create_task">New Task</string>
-    
+    <string name="title_activity_create_event">New Event</string>
 
 </resources>

@@ -53,7 +53,7 @@ public class CreateTaskActivity extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 
-	public void createEvent(View view){
+	public void createTask(View view){
 		//do whatever we need to to create an event. probably call a static method somewhere
 	}
 }

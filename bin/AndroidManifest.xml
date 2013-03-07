@@ -46,6 +46,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.appvengers.jarvis.DisplayTasksActivity" />
         </activity>
+        <activity
+            android:name="com.appvengers.jarvis.CreateEventActivity"
+            android:label="@string/title_activity_create_event"
+            android:parentActivityName="com.appvengers.jarvis.DisplayScheduleActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.appvengers.jarvis.DisplayScheduleActivity" />
+        </activity>
     </application>
 
 </manifest>

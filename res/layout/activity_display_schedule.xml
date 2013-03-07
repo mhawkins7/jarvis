@@ -16,4 +16,12 @@
         android:text="@string/schedule_temp"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/create_event"
+        android:onClick="createEvent" />
+
 </FrameLayout>

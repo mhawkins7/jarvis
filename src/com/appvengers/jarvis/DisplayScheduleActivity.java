@@ -4,8 +4,10 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.support.v4.app.NavUtils;
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.os.Build;
 
 public class DisplayScheduleActivity extends Activity {
@@ -52,4 +54,12 @@ public class DisplayScheduleActivity extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 
+	/**
+	 * starts a new CreateEventActivity
+	 * @param view
+	 */
+	public void createEvent(View view){
+		Intent intent = new Intent(this, CreateEventActivity.class);
+		startActivity(intent);
+	}
 }

@@ -11,11 +11,11 @@
     tools:context=".CreateTaskActivity" >
 
     <EditText
-        android:id="@+id/task_form_name"
+        android:id="@+id/event_form_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/task_form_name" >
+        android:hint="@string/event_form_name" >
 
         <requestFocus />
     </EditText>
@@ -32,7 +32,7 @@
             android:textAppearance="?android:attr/textAppearanceSmall" />
 
         <EditText
-            android:id="@+id/task_form_startTime"
+            android:id="@+id/event_form_startTime"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -40,7 +40,7 @@
             android:inputType="time" />
 
         <EditText
-            android:id="@+id/task_form_startDate"
+            android:id="@+id/event_form_startDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -61,7 +61,7 @@
         android:textAppearance="?android:attr/textAppearanceSmall" />
         
         <EditText
-            android:id="@+id/task_form_endTime"
+            android:id="@+id/event_form_endTime"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -69,7 +69,7 @@
             android:inputType="time" />
 
         <EditText
-            android:id="@+id/task_form_endDate"
+            android:id="@+id/event_form_endDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -79,7 +79,7 @@
     </LinearLayout>
     
     <EditText
-        android:id="@+id/task_form_location"
+        android:id="@+id/event_form_location"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:ems="10"
@@ -98,7 +98,7 @@
             android:textAppearance="?android:attr/textAppearanceSmall" />
 
         <EditText
-            android:id="@+id/editText1"
+            android:id="@+id/event_form_priority"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -113,12 +113,12 @@
         android:layout_height="match_parent" >
 
         <Button
-            android:id="@+id/task_form_createButton"
+            android:id="@+id/event_form_createButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:text="@string/task_form_createButton"
-            android:onClick="createTask" />
+            android:text="@string/event_form_createButton"
+            android:onClick="createEvent" />
 
     </LinearLayout>
 
